@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="/main.css">
+  <title>Stock Price Checker</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>
+      <a href="/" class="logo">Stock Price Checker</a>
+    </h1>
+    <div class="form-wrapper">
+      <form autocomplete="off">
+        <input type="text" class="symbols-input" name="symbols" title="List up to two symbols, separated by comma" placeholder="Enter symbols">
+        <label for="like" class="like-box">
+          <input type="checkbox" id="like" name="like">
+          <i class="far fa-thumbs-up like-button" title="Like me"></i>
+        </label>
+        <button type="submit"><i class="fas fa-search search-button"></i></button>
+      </form>
+      <p class="error">Invalid symbol parameter</p>
+      <div class="spinner">
+        <div class="sk-fading-circle">
+          <div class="sk-circle1 sk-circle"></div>
+          <div class="sk-circle2 sk-circle"></div>
+          <div class="sk-circle3 sk-circle"></div>
+          <div class="sk-circle4 sk-circle"></div>
+          <div class="sk-circle5 sk-circle"></div>
+          <div class="sk-circle6 sk-circle"></div>
+          <div class="sk-circle7 sk-circle"></div>
+          <div class="sk-circle8 sk-circle"></div>
+          <div class="sk-circle9 sk-circle"></div>
+          <div class="sk-circle10 sk-circle"></div>
+          <div class="sk-circle11 sk-circle"></div>
+          <div class="sk-circle12 sk-circle"></div>
+        </div>
+      </div>
+    </div>
+    <div class="main-content"></div>
+    <div class="credits">
+      <div class="attribution">“Data provided for free by <a href="https://iextrading.com/developer" target="_blank">IEX</a>. View <a href="https://iextrading.com/api-exhibit-a/" target="_blank">IEX’s Terms of Use</a>.”</div>
+      <div class="coded-by">Coded by <a href="https://www.freecodecamp.org/fcc5b94da85-6e92-4331-8fbb-c5c610c6a41a" target="_blank">Pavel
+          P.</a> for freeCodeCamp</div>
+    </div>
+  </div>
+
+  <script src="/main.js"></script>
+</body>
+
+</html>
